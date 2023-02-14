@@ -1,4 +1,4 @@
-FROM golang:1.19.2-buster
+FROM golang:1.19.5-buster
 ENV SCOPE_SKIP_UI_ASSETS true
 RUN set -eux; \
    export arch_val="$(dpkg --print-architecture)"; \
