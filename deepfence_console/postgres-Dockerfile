@@ -1,4 +1,4 @@
-FROM postgres:14.6-bullseye
+FROM postgres:14.12-bullseye
 
 MAINTAINER Deepfence Inc
 LABEL deepfence.role=system
