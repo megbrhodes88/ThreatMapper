@@ -1,4 +1,4 @@
-FROM golang:1.19.5-bullseye
+FROM golang:1.22.3-bullseye
 RUN apt-get update && \
     apt-get install -y \
       curl \
