@@ -1,4 +1,4 @@
-FROM golang:1.20
+FROM golang:1.23rc1
 ADD ./bin/dialer /go/bin
 
 ARG revision
