@@ -1,4 +1,4 @@
-FROM golang:1.19.5-bullseye
+FROM golang:1.22.5-bullseye
 ENV SCOPE_SKIP_UI_ASSETS true
 RUN set -eux; \
    export arch_val="$(dpkg --print-architecture)"; \
